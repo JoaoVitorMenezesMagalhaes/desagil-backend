@@ -14,21 +14,21 @@ class PlaylistTest {
 
 	@Test
 	void testRoundDownToZero() {
-		assertEquals(true, false);
+		assertEquals(2.0, averageRatings());
 	}
 
 	@Test
 	void testRoundUpToHalf() {
-		assertEquals(true, false);
+		assertEquals(1.5, averageRatings());
 	}
 
 	@Test
 	void testRoundDownToHalf() {
-		assertEquals(true, false);
+		assertEquals(1.5, averageRatings());
 	}
 
 	@Test
 	void testRoundUpToOne() {
-		assertEquals(true, false);
+		assertEquals(2.0, averageRatings());
 	}
 }
